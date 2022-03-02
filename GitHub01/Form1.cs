@@ -19,10 +19,10 @@ namespace GitHub01
 
         private void button1_Click(object sender, EventArgs e)
         {
-            double a = Convert.ToDouble(textBox1.Text);
-            double b = Convert.ToDouble(textBox2.Text);
-            double soucet = a + b;
+            double a = Convert.ToDouble(textBox1.Text), b = Convert.ToDouble(textBox2.Text);
+            double soucet = a + b, rozdil = a - b;
             MessageBox.Show("" + soucet);
+            MessageBox.Show("" + rozdil);
         }
     }
 }
